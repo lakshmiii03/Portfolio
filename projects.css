@@ -1,0 +1,25 @@
+.row3{
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+.row3>div{
+ margin:10px;
+ display:flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ margin-bottom: 50px;
+ 
+ 
+}
+
+
+
+.row3>div>img{
+ width:450px;
+ height:250px;
+ border: 2px solid white;
+ padding:5px;
+}

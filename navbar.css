@@ -1,0 +1,54 @@
+*{
+ margin: 0;
+ padding: 0;
+ font-family:cursive;
+
+
+}
+
+body{
+ background-color:black;
+}
+ul{
+ list-style-type:none;
+ background-color:coral;
+ overflow:hidden;
+}
+li{
+ float:right;
+}
+
+li a{
+ text-decoration:none;
+ padding:14px 16px;
+ display:block;
+ font-size:20px;
+ letter-spacing: 2px;
+color:black;
+font-weight: bold;
+}
+
+li a:hover{
+ color:floralwhite;
+}
+
+.logo{
+ float:left;
+ padding:14px 16px;
+ font-size:25px;
+ font-weight:bold;
+}
+
+section{
+ width:100%;
+ height:90vh;
+ margin-top:10px;
+
+}
+
+h1{
+ text-align: center;
+ margin: 10px;
+ font-weight: 900;
+ font-size: 40px;
+}

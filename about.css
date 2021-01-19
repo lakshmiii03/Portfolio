@@ -1,0 +1,28 @@
+.row1{
+ display:grid;
+ grid-template-columns: 1fr 1fr;
+}
+
+
+
+.row1>div{
+ display:flex;
+ justify-content: center;
+ flex-direction: column;
+ text-align: center;
+ margin:40px;
+}
+.row1>div>img{
+ height: 550px;
+ border-radius: 50%;
+}
+
+.Details>h1,h3,p{
+ margin:10px;
+ color:mediumvioletred;
+ font-size:23px;
+}
+
+.Details>h1{
+ color:cyan;
+}
